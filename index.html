@@ -1,0 +1,34 @@
+<html>
+<head>
+  <title>Pest Control Prayer Xp Calculator</title>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>
+        Pest Control Prayer Xp Calculator
+    </h1>
+    
+    <p>
+        Enter your prayer xp or level and the table will show how many points you need to achieve a certain level.
+    </p>
+    
+    <div>
+        <form onsubmit="onSubmit(event)">
+            <b>Current xp:</b> <input type="text" id="xp" value="7842"><br>
+            (or)<br>
+            <b>Current level:</b> <input type="text" id="level" value="25"><br>
+            <br>
+            <input type="submit" value="Calculate">
+        </form>
+    </div>
+    
+    <div>
+        <table id="result-table">
+
+        </table>
+    </div>
+
+</body>
+</html>
